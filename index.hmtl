@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Trello Redirect Power-Up</title>
+    <script src="https://p.trellocdn.com/power-up.min.js"></script>
+    <script src="client.js"></script>
+  </head>
+  <body>
+    <h3>Card Redirect Power-Up</h3>
+    <p>Configura el enlace en la tarjeta y usa el botón para abrirlo.</p>
+  </body>
+</html>
