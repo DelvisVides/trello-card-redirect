@@ -1,7 +1,7 @@
-
+{
   "name": "Card Redirect Power-Up",
   "description": "Permite redirigir a un enlace desde la tarjeta",
-  "author": "Tu nombre",
+  "author": "Delvis Vides",
   "version": "1.0",
   "capabilities": [
     "card-badges",
@@ -9,6 +9,6 @@
     "show-settings"
   ],
   "connectors": {},
-  "iframeConnectorUrl": "https://delvisvides.github.io/trello-card-redirect/index.html"
+  "iframeConnectorUrl": "https://delvisvides.github.io/trello-card-redirect/index.html",
   "icon": "https://delvisvides.github.io/trello-card-redirect/icon.png"
 }
