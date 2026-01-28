@@ -7,7 +7,32 @@
     <script src="client.js"></script>
   </head>
   <body>
-    <h3>Card Redirect Power-Up</h3>
-    <p>Configura el enlace en la tarjeta y usa el botón para abrirlo.</p>
+    <h3>Configurar enlace de redirección</h3>
+    <form id="linkForm">
+      <label for="redirectUrl">Enlace:</label>
+      <input type="url" id="redirectUrl" placeholder="https://www.churchofjesuschrist.org/study/manual/general-handbook?lang=spa" required>
+      <button type="submit">Guardar</button>
+    </form>
+
+    <script>
+      var t = TrelloPowerUp.iframe();
+      var form = document.getElementById('linkForm');
+
+      // Cargar enlace guardado
+      t.get('card', 'shared', 'redirectUrl').then(function(url){
+        if(url){
+          document.getElementById('redirectUrl').value = url;
+        }
+      });
+
+      // Guardar enlace al enviar
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        var url = document.getElementById('redirectUrl').value;
+        t.set('card', 'shared', 'redirectUrl', url).then(function(){
+          t.closePopup();
+        });
+      });
+    </script>
   </body>
 </html>
