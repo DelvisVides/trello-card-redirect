@@ -1,4 +1,4 @@
-{
+
   "name": "Card Redirect Power-Up",
   "description": "Permite redirigir a un enlace desde la tarjeta",
   "author": "Tu nombre",
@@ -10,5 +10,5 @@
   ],
   "connectors": {},
   "iframeConnectorUrl": "index.html"
-  "icon": "https://tuusuario.github.io/trello-card-redirect/icon.png"
+  "icon": "https://delvisvides.github.io/trello-card-redirect/icon.png"
 }
