@@ -9,6 +9,6 @@
     "show-settings"
   ],
   "connectors": {},
-  "iframeConnectorUrl": "index.html"
+  "iframeConnectorUrl": "https://delvisvides.github.io/trello-card-redirect/index.html"
   "icon": "https://delvisvides.github.io/trello-card-redirect/icon.png"
 }
