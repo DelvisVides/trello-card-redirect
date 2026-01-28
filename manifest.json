@@ -1,0 +1,13 @@
+{
+  "name": "Card Redirect Power-Up",
+  "description": "Permite redirigir a un enlace desde la tarjeta",
+  "author": "Tu nombre",
+  "version": "1.0",
+  "capabilities": [
+    "card-badges",
+    "card-detail-badges",
+    "show-settings"
+  ],
+  "connectors": {},
+  "iframeConnectorUrl": "index.html"
+}
